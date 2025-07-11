@@ -1,0 +1,51 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Jupyter notebooks
+notebooks/
+.ipynb_checkpoints/
+
+# Environment
+.env
+*.env
+venv/
+.envrc
+
+# Docker
+Dockerfile
+docker-compose.yml
+
+# OS/system files
+.DS_Store
+Thumbs.db
+
+# IDEs/editors
+.vscode/
+.idea/
+
+# Build/output
+build/
+dist/
+*.egg-info/
+*.log
+
+# Datasets
+data/
+!data/sample.csv        # Optionally allow a small sample file
+
+# Models
+*.pkl
+*.joblib
+models/
+!models/sample_model.pkl  # Optional if you want one sample
+
+# Git
+.git/
+.gitignore
+
+#Airflow
+dags/__pycache__/
