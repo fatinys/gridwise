@@ -23,7 +23,7 @@ SUNWISE/
 │   └── Dockerfile.api          # For FastAPI app
 │   └── Dockerfile.airflow      # For Airflow
 ├── sql/
-│   └── solar_schema.sql        # BigQuery or PostgreSQL schema
+│   └── solar_schema.sql        # PostgreSQL schema
 ├── requirements.txt
 ├── docker-compose.yml
 └── README.md
