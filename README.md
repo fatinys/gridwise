@@ -12,7 +12,7 @@ SUNWISE/
 │   └── ingest_pipeline.py      # Ingest + store pipeline
 │   └── retrain_pipeline.py     # Retraining DAG
 ├── notebooks/
-│   └── model_dev.ipynb         # Model exploration and training
+│   └── analysis_modeling.ipynb # Model exploration and training
 ├── app/
 │   ├── main.py                 # FastAPI app to serve model
 │   └── model.pkl               # Trained model
