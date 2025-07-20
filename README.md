@@ -2,7 +2,9 @@
 
 
 
+## Currently a Work in Progress - Check Notebooks for data analysis and modeling
 
+### Repo Scaffold
 ```md
 GRIDWISE/
 ├── data/
