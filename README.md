@@ -4,7 +4,7 @@
 
 
 ```md
-SUNWISE/
+GRIDWISE/
 ├── data/
 │   ├── raw/                    # Weather + solar generation data
 │   └── processed/              # Feature engineered data
