@@ -40,7 +40,7 @@ We then want to be able to deploy our model within an environment as a proof of 
 
 **Model Comparisons**: RMSE/MAE metrics across models.
 
-**Visualization**: Interactive Plotly dashboards or Matplotlib plots.
+**Visualization**: Matplotlib, Seaborn, and Streamlit
 
 **Deployment**: API and APP to interface with insights and forecasting.
 
