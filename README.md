@@ -8,10 +8,7 @@
 2. Key Features
 3. Data Sources
 4. Tech Stack
-5. Installation
-6. Project Structure
-7. Usage
-8. Results
+5. Project Structure
 
 ## Project Overview
 
@@ -45,6 +42,14 @@ We then want to be able to deploy our model within an environment as a proof of 
 **Deployment**: API and APP to interface with insights and forecasting.
 
 
+## Data Sources
+
+1. **EIA.gov**, Pulling from the EIA API to get Demand Data.
+2. **Open-Meteo**,  Pulling Hourly Weather Data from the Open API
+
+
+
+
 
 ## Project Structure
 ```
@@ -75,7 +80,7 @@ We then want to be able to deploy our model within an environment as a proof of 
 ├── README.md
 ├── requirements.txt
 ├── sql
-│   └── solar_schema.sql
+│   └── schema.sql
 ├── src
 │   ├── __init__.py
 │   └── data
