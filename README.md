@@ -16,7 +16,7 @@
 
 We prioritize simplicity and interpretability first, then incrementally introduce model complexity:  
 
-*Seasonal Naive -> Exponential Smoothing -> Winter-Holts -> SARIMAX -> Prophet -> TBATS -> XGBoost -> LSTM , NBEATS*
+*Seasonal Naive -> Winter-Holts -> SARIMAX -> Prophet
 
 **Selection Criteria**:  
 - Performance (RMSE/MAE) > Interpretability  
