@@ -24,18 +24,6 @@ x-airflow-common: &airflow-common
       condition: service_healthy
 
 services:
-  pgadmin:
-    image: dpage/pgadmin4
-    environment:
-      PGADMIN_DEFAULT_EMAIL: ercotadmin@gmail.com
-      PGADMIN_DEFAULT_PASSWORD: admin
-    ports:
-      - "5050:80"
-    depends_on:
-      - postgres_airflow
-      - postgres_data
-    restart: always
-
   postgres_airflow:
     image: postgres:13
     environment:
@@ -62,7 +50,7 @@ services:
     volumes:
       - ercot_data:/var/lib/postgresql/data
     healthcheck:
-      test: ["CMD", "pg_isready", "-U", "ercot_user"]
+      test: ["CMD", "pg_isready", "-U"]
       interval: 10s
       retries: 5
       start_period: 5s
